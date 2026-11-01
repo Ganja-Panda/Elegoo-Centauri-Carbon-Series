@@ -1,0 +1,51 @@
+{
+	"adaptive_pressure_advance": [
+		"1"
+	],
+	"adaptive_pressure_advance_bridges": [
+		"0.027"
+	],
+	"adaptive_pressure_advance_model": [
+		"0.066,6.30,2000\n0.064,6.30,5000\n0.056,6.30,10000\n0.054,12.60,2000\n0.054,12.60,5000\n0.048,12.60,10000\n0.054,16.80,2000\n0.048,16.80,5000\n0.04816.80,10000"
+	],
+	"adaptive_pressure_advance_overhangs": [
+		"1"
+	],
+	"cool_plate_temp": [
+		"45"
+	],
+	"cool_plate_temp_initial_layer": [
+		"45"
+	],
+	"default_filament_colour": [
+		"#C8A36F"
+	],
+	"fan_min_speed": [
+		"100"
+	],
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_flow_ratio": [
+		"1.02"
+	],
+	"filament_max_volumetric_speed": [
+		"17"
+	],
+	"filament_retraction_length": [
+		"0.4"
+	],
+	"filament_settings_id": [
+		"Elegoo PLA Wood @ECC2 - Filled"
+	],
+	"from": "User",
+	"inherits": "Elegoo PLA Wood @ECC2",
+	"name": "Elegoo PLA Wood @ECC2 - Filled",
+	"nozzle_temperature": [
+		"215"
+	],
+	"pressure_advance": [
+		"0.054"
+	],
+	"version": "1.5.3.5"
+}

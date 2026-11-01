@@ -1,0 +1,48 @@
+{
+	"adaptive_pressure_advance": [
+		"1"
+	],
+	"adaptive_pressure_advance_bridges": [
+		"0.019"
+	],
+	"adaptive_pressure_advance_model": [
+		"0.052,6.30,2000\n0.048,6.30,5000\n0.046,6.30,10000\n0.050,12.60,2000\n0.038,12.60,5000\n0.044,12.60,10000\n0.038,16.80,2000\n0.034,16.80,5000\n0.032,16.80,10000"
+	],
+	"adaptive_pressure_advance_overhangs": [
+		"1"
+	],
+	"default_filament_colour": [
+		"#FFFFFF"
+	],
+	"fan_min_speed": [
+		"100"
+	],
+	"filament_cost": [
+		"13.99"
+	],
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_flow_ratio": [
+		"0.99"
+	],
+	"filament_retraction_length": [
+		"0.4"
+	],
+	"filament_settings_id": [
+		"Elegoo PLA @ECC2 - White"
+	],
+	"from": "User",
+	"inherits": "Elegoo PLA @ECC2",
+	"name": "Elegoo PLA @ECC2 - White",
+	"nozzle_temperature": [
+		"215"
+	],
+	"nozzle_temperature_initial_layer": [
+		"220"
+	],
+	"pressure_advance": [
+		"0.038"
+	],
+	"version": "1.5.3.5"
+}

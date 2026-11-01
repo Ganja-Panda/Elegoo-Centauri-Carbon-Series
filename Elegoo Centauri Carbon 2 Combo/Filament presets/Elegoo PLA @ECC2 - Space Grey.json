@@ -1,0 +1,54 @@
+{
+	"adaptive_pressure_advance": [
+		"1"
+	],
+	"adaptive_pressure_advance_bridges": [
+		"0.018"
+	],
+	"adaptive_pressure_advance_model": [
+		"0.047,6.30,2000\n0.044,6.30,5000\n0.042,6.30,10000\n0.036,12.60,2000\n0.036,12.60,5000\n0.032,12.60,10000\n0.032,16.80,2000\n0.026,16.80,5000\n0.024,16.80,10000"
+	],
+	"adaptive_pressure_advance_overhangs": [
+		"1"
+	],
+	"default_filament_colour": [
+		"#5D5D5D"
+	],
+	"fan_min_speed": [
+		"100"
+	],
+	"filament_cost": [
+		"13.99"
+	],
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_flow_ratio": [
+		"1.015"
+	],
+	"filament_max_volumetric_speed": [
+		"23"
+	],
+	"filament_settings_id": [
+		"Elegoo PLA @ECC2 - Space Grey"
+	],
+	"from": "User",
+	"hot_plate_temp": [
+		"30"
+	],
+	"hot_plate_temp_initial_layer": [
+		"30"
+	],
+	"inherits": "Elegoo PLA @ECC2",
+	"name": "Elegoo PLA @ECC2 - Space Grey",
+	"nozzle_temperature": [
+		"215"
+	],
+	"nozzle_temperature_initial_layer": [
+		"220"
+	],
+	"pressure_advance": [
+		"0.036"
+	],
+	"version": "1.5.3.5"
+}

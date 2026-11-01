@@ -1,0 +1,27 @@
+{
+	"bridge_flow": "0.9",
+	"extra_perimeters_on_overhangs": "1",
+	"from": "User",
+	"inherits": "0.12mm Fine @Elegoo CC2 0.4 nozzle",
+	"layer_height": "0.08",
+	"name": "0.08mm Fine @Elegoo CC2 0.4 nozzle - Copy",
+	"outer_wall_speed": "140",
+	"print_extruder_id": [
+		"1"
+	],
+	"print_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"print_settings_id": "0.08mm Fine @Elegoo CC2 0.4 nozzle - Copy",
+	"reduce_crossing_wall": "1",
+	"role_based_wipe_speed": "1",
+	"seam_position": "back",
+	"slowdown_for_curled_perimeters": "1",
+	"sparse_infill_pattern": "gyroid",
+	"staggered_inner_seams": "1",
+	"version": "1.5.2.2",
+	"wall_generator": "arachne",
+	"wall_sequence": "inner-outer-inner wall",
+	"wipe_before_external_loop": "1",
+	"wipe_on_loops": "1"
+}
