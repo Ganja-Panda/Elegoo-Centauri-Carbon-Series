@@ -1,104 +1,137 @@
-# 🐼 PandaWorks — Elegoo Centauri Carbon & Centauri Carbon 2 Combo Profiles
+# 🐼 PandaWorks — Elegoo Printer Profiles & HueForge Filament Data
 
-**Printer, filament, and process presets for the Elegoo Centauri Carbon (ECC) and Centauri Carbon 2 Combo (ECC2C).**
+**Independent tuning presets for the Elegoo Centauri Carbon (ECC) and Centauri Carbon 2 Combo (ECC2C), plus ready-to-use Elegoo PLA color and transmission-distance data for HueForge.**
 
-These are my personal, machine-specific tuning profiles, built through repeated calibration, test prints, and close inspection—not generic settings copied from a manufacturer chart. The repository is a growing reference and backup for my Elegoo printer configurations.
+These are configurations and measurements from my own equipment. I calibrate, test, inspect, and revise them—not just copy numbers out of the slicer's default profiles. The repo is both my working backup and a resource for other makers.
 
-> **Start here:** Choose the folder for **your printer**. ECC and ECC2C settings are separate; **do not treat their filament, process, or printer profiles as interchangeable**.
+> **Pick the right files:** ECC and ECC2C printer/filament/process presets are machine-specific. HueForge filament data is a separate resource; you do **not** need either printer or a TD-1S to use the supplied filament entries in HueForge.
 
-## 📦 Choose your printer
+## 📦 What's here
 
-| Printer | Package | Current contents | Nozzle |
-|---|---|---|---|
-| **Centauri Carbon (ECC)** | [Open ECC profiles](./Elegoo%20Centauri%20Carbon/) | 1 printer preset · 9 filament presets · 3 process presets | 0.4 mm |
-| **Centauri Carbon 2 Combo (ECC2C)** | [Open ECC2C profiles](./Elegoo%20Centauri%20Carbon%202%20Combo/) | 1 printer preset · 9 filament presets · 4 process presets | 0.4 mm |
+| Collection | Contents currently published | Go to files |
+|---|---|---|
+| **Centauri Carbon (ECC)** | 1 printer, 9 filament, 3 process presets | [ECC profiles](./Elegoo%20Centauri%20Carbon/) |
+| **Centauri Carbon 2 Combo (ECC2C)** | 1 printer, 9 filament, 4 process presets | [ECC2C profiles](./Elegoo%20Centauri%20Carbon%202%20Combo/) |
+| **HueForge — Elegoo PLA** | 15 filament color / transmission-distance entries | [HueForge data](./HueForge/) |
 
-**These counts describe the files currently in the repository, not every material I own or intend to calibrate.** More profiles will be added as testing is completed.
+Counts reflect the files currently published—not every filament I own or intend to calibrate. **All published printer/process presets are for 0.4 mm nozzles.**
 
-### 🖨️ Elegoo Centauri Carbon (ECC)
+---
+
+## 🖨️ Centauri Carbon (ECC)
 
 - [Printer preset](./Elegoo%20Centauri%20Carbon/Printer%20Profile/.4mm%20Hotend/)
 - [Filament presets](./Elegoo%20Centauri%20Carbon/Filament%20Profiles/.4mm%20Hotend/PLA/)
 - [Process presets](./Elegoo%20Centauri%20Carbon/Process%20Profiles/.4mm%20Hotend/)
 
-**Process layer heights:** 0.12 mm Fine, 0.16 mm Optimal, and 0.20 mm Standard.
+**Processes:** 0.12 mm Fine · 0.16 mm Optimal · 0.20 mm Standard.
 
-**Included filament profiles:** Black, Bronze Filled, Dark Blue, Grey, Marble Filled, Red, Space Grey, White, and Wood Filled.
+**Available filament presets:** Black, Bronze Filled, Dark Blue, Grey, Marble Filled, Red, Space Grey, White, and Wood Filled.
 
-### 🎨 Elegoo Centauri Carbon 2 Combo (ECC2C)
+## 🖨️ Centauri Carbon 2 Combo (ECC2C)
 
 - [Printer preset](./Elegoo%20Centauri%20Carbon%202%20Combo/Printer%20presets/)
 - [Filament presets](./Elegoo%20Centauri%20Carbon%202%20Combo/Filament%20presets/)
 - [Process presets](./Elegoo%20Centauri%20Carbon%202%20Combo/Process%20presets/)
 
-**Process layer heights:** 0.08 mm Fine, 0.12 mm Fine, 0.16 mm Optimal, and 0.20 mm Standard.
+**Processes:** 0.08 mm Fine · 0.12 mm Fine · 0.16 mm Optimal · 0.20 mm Standard.
 
-**Included filament profiles:** Black, Bronze Filled, Dark Blue, Grey, Marble Filled, Red, Space Grey, White, and Wood Filled.
+**Available filament presets:** Black, Bronze Filled, Dark Blue, Grey, Marble Filled, Red, Space Grey, White, and Wood Filled.
 
-> **ECC2C package note:** Some currently published printer/process filenames include `- Copy`. These are the names of the uploaded JSON files. Check the preset names and inherited base presets inside your slicer after import.
+**About filenames ending in `- Copy`:** These are deliberately named copies of Elegoo's default printer/process presets that I have modified. They're not accidental duplicates or unfinished filenames. They retain the familiar base naming because they are edited copies of those profiles.
 
----
+### Compatibility and calibration notes
 
-## ⚠️ Compatibility and scope
-
-- Profiles are tuned for **Elegoo-branded filament** on the **specific printer** identified by their folder and preset names.
-- The currently published presets target **0.4 mm nozzles**. Additional nozzle sizes are not presented here as tested packages.
-- Different pigment loads, fillers, melt behavior, cooling characteristics, and printer hardware can change the ideal settings, even for filaments sold under the same material family.
-- **Do not assume** a profile tuned on my printer is perfect on yours. Start with a small test print and verify extrusion, first layers, temperatures, and cooling.
-- Some JSON presets **inherit** settings from an existing Elegoo/OrcaSlicer base profile. If an import reports a missing parent preset, install/select the matching printer and baseline presets first; don't assume each file is completely standalone.
-
-## 🔬 What I tune and inspect
-
-My calibration process considers:
-
-- Temperature response and material-specific extrusion behavior
-- Maximum volumetric flow
-- Flow ratio and extrusion consistency
-- Pressure advance across different motion conditions
-- Retraction and stringing
-- Cooling, bridges, overhangs, and surface quality
-- Layer consistency and fine surface artifacts under magnification
-
-I use physical calibration prints, high-magnification inspection, and AI-assisted analysis as tools to identify defects and compare results. **The printed results—not an AI prediction—are the basis for accepting a profile.**
-
-Filament tuning is ongoing. These files are practical configurations from my own equipment, not universal material specifications or guarantees of identical results across machines.
+- The filament presets are made for **Elegoo-branded filament**, on the named printer. Do not assume another brand—or the other Centauri Carbon model—will behave identically.
+- Pigments, fillers, batches, cooling, and printer hardware can all affect results. Verify critical settings and run a small test print before relying on someone else's configuration.
+- Some JSON presets **inherit** settings from an existing Elegoo slicer profile. Keep the appropriate stock printer and base presets available when importing them.
+- Filament presets contain individually calibrated values. There is no single universal flow ratio, pressure advance value, or maximum volumetric speed for everything in this repository.
 
 ---
 
-## 📥 Download
+## 🎨 HueForge — Elegoo PLA filament data
 
-**A single preset:** Open the printer folder above, select the JSON file, then use GitHub's **Download raw file** action.
+**[Download / view `Elegoo PLA TD-1s Results.json`](./HueForge/Elegoo%20PLA%20TD-1s%20Results.json)**
 
-**Everything:** From the [repository home page](https://github.com/Ganja-Panda/Elegoo-CC1), select **Code → Download ZIP**, then extract the archive and choose your printer's folder.
+This is a **15-filament HueForge library** for anyone who wants to work with these Elegoo PLA colors without buying a BIQU TD-1S or spending hours measuring each spool.
 
-You do not need Git installed to download the files.
+### Where the numbers come from
 
-## 🧩 Import into your slicer
+- **Color / HEX:** Sourced from Elegoo's RFID filament-tag color data, rather than trusting the TD-1S to measure the filament's RGB color accurately.
+- **Transmission distance (TD):** Measured from the physical filaments using my **BIQU TD-1S**.
+- **Saved library:** I combined those values into HueForge filament profiles and shared the resulting JSON. I also corrected the colors in my own saved TD-1S profiles.
 
-1. Open your compatible Elegoo Slicer or OrcaSlicer installation.
-2. Select **File → Import → Import Configs** (wording may vary by slicer version).
-3. Select the appropriate JSON preset files for **your printer**. If your slicer supports importing a config ZIP directly, you can use that route as well.
-4. Check that the printer, filament, and process presets appeared correctly, and resolve any inherited-base-profile warnings.
-5. Confirm the **printer model, nozzle diameter, filament selection, and process settings** before starting a test print.
+The HEX color and TD value are **different types of data from different sources**. The TD-1S provided the transmission-distance measurements, **not** the published HEX measurements.
 
-**Importing is not the same as validating.** Check all settings that affect safe machine operation—especially temperatures, speeds, G-code, and machine selection—before printing. A slicer update may also change import behavior or preset compatibility.
+### Currently included
+
+| Elegoo PLA | HEX | TD |
+|---|---|---:|
+| Beige | `#FFEEC5` | 2.3 |
+| Black | `#000000` | 0.1 |
+| Brown | `#9B6A4D` | 2.4 |
+| Dark Blue | `#2323F7` | 2.8 |
+| Grey | `#747C7E` | 2.5 |
+| Neon Green | `#29D464` | 4.6 |
+| Orange | `#E97B47` | 5.7 |
+| Pink | `#FBAFBC` | 5.3 |
+| Purple | `#9E69E8` | 2.1 |
+| Red | `#FF0000` | 4.7 |
+| Sea Green | `#09C299` | 1.9 |
+| Sky Blue | `#24A2CC` | 3.1 |
+| Space Grey | `#979797` | 0.1 |
+| White | `#FFFFFF` | 4.9 |
+| Yellow | `#FFC800` | 6.0 |
+
+*These are the values in the published JSON, not a claim that every future Elegoo production batch will have identical optical behavior. Specialty blends and other filament measurements will be added as they're ready.*
+
+### Using the HueForge library
+
+1. Download [`Elegoo PLA TD-1s Results.json`](./HueForge/Elegoo%20PLA%20TD-1s%20Results.json) using GitHub's raw-file download option.
+2. Use HueForge's filament-library import feature to load the JSON, following the import workflow for your installed HueForge version.
+3. Verify the imported filament names, HEX colors, and transmission-distance values before building a project.
+
+This **HueForge JSON is not a slicer preset**. Import it into HueForge, not through your slicer's printer/process/filament preset importer.
 
 ---
 
-## 🚧 Work in progress
+## 🔬 How I develop and evaluate printer profiles
 
-This is a living repository. Additional Elegoo filament colors, specialized blends, refinements, and other nozzle sizes may appear after I finish calibrating and verifying them. A folder or planned item is **not** a promise that its settings have already been tested.
+My process includes temperature tests, maximum volumetric flow testing, flow calibration, pressure advance at different speeds and accelerations, retraction, cooling, bridging, overhangs, and real-world print evaluation. I also inspect printed surfaces under magnification and use AI-assisted analysis to help find subtle patterns and artifacts.
 
-For updates, inspect the repository's file history and newly added presets.
+**The actual printed results determine whether a setting is accepted.** This is independent experimentation on my specific equipment, not an official Elegoo certification or a promise that every printer will produce the same results.
 
-## 🛠 Why this repository exists
+---
 
-I use this space to back up my tuned settings, keep ECC and ECC2C configurations organized, and share useful starting points with other Elegoo owners who would rather spend less time fighting calibration and more time printing weird shit.
+## 📥 Downloading and importing printer presets
+
+### Download
+
+- **Individual file:** Open its folder on GitHub and choose **Download raw file**.
+- **Whole repository:** Select **Code → Download ZIP** on the [repository home page](https://github.com/Ganja-Panda/Elegoo-CC1), then extract it.
+
+### Import into Elegoo Slicer / OrcaSlicer
+
+1. Open your compatible slicer and choose **File → Import → Import Configs** (menu wording may vary with version).
+2. Select the relevant JSON presets for your **specific printer**. Some slicer versions also support importing configuration ZIPs.
+3. Confirm any required inherited/base profiles are available.
+4. Select the right printer, nozzle, filament, and process before printing.
+5. Inspect temperatures, G-code, speeds, and other machine-specific settings and make a small verification print.
+
+**Do not import the HueForge data through this slicer workflow.** It belongs in HueForge.
+
+---
+
+## 🚧 Ongoing work
+
+More Elegoo filament colors, specialty blends, calibration refinements, and possibly other nozzle configurations may be published as I finish and verify them. An omitted color means there's no published profile for it yet—not that the filament is unsupported by the printer.
+
+This repository exists to back up my work, share repeatable starting points, and let other people spend less time calibrating and more time **printing weird shit**.
 
 ## 📜 License
 
-Distributed under the [MIT License](./LICENSE). Copyright © 2025 Ganja Panda, as stated in the repository license.
+Distributed under the [MIT License](./LICENSE). Copyright © 2025 Ganja Panda as stated in the repository license.
 
-Use it, modify it, sacrifice it to the filament gods. Just verify your setup before firing up the machine.
+Use it, modify it, sacrifice it to the filament gods. Just check your machine before firing it up.
 
-*If this repository helps, a GitHub star is appreciated.* 🐼
+*If the repository saves you some calibration time, a GitHub star is always appreciated.* 🐼
