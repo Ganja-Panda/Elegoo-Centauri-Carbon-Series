@@ -1,0 +1,169 @@
+{
+    "Filaments": [
+        {
+            "Brand": "Elegoo",
+            "Color": "#ffeec5",
+            "Name": "Beige",
+            "Owned": false,
+            "Tags": [
+            ],
+            "Transmissivity": 2.3,
+            "Type": "PLA",
+            "uuid": "{c8cb4741-41ea-43a8-a1af-5594f6447217}"
+        },
+        {
+            "Brand": "Elegoo",
+            "Color": "#000000",
+            "Name": "Black",
+            "Owned": false,
+            "Tags": [
+            ],
+            "Transmissivity": 0.1,
+            "Type": "PLA",
+            "uuid": "{48ae3ec7-1df2-468d-a35d-aa93856ee69e}"
+        },
+        {
+            "Brand": "Elegoo",
+            "Color": "#9b6a4d",
+            "Name": "Brown",
+            "Owned": false,
+            "Tags": [
+            ],
+            "Transmissivity": 2.4,
+            "Type": "PLA",
+            "uuid": "{497b80eb-c950-419d-8f4c-3aad4fade6cb}"
+        },
+        {
+            "Brand": "Elegoo",
+            "Color": "#2323f7",
+            "Name": "Dark Blue",
+            "Owned": false,
+            "Tags": [
+            ],
+            "Transmissivity": 2.8,
+            "Type": "PLA",
+            "uuid": "{71c67208-907a-4d60-9f55-1596fb010986}"
+        },
+        {
+            "Brand": "Elegoo",
+            "Color": "#747c7e",
+            "Name": "Grey",
+            "Owned": false,
+            "Tags": [
+            ],
+            "Transmissivity": 2.5,
+            "Type": "PLA",
+            "uuid": "{73cc50a4-ace1-4038-88d6-a695c917aad2}"
+        },
+        {
+            "Brand": "Elegoo",
+            "Color": "#29d464",
+            "Name": "Neon Green",
+            "Owned": false,
+            "Tags": [
+            ],
+            "Transmissivity": 4.6,
+            "Type": "PLA",
+            "uuid": "{10987a56-4b68-4871-bcd7-20f52bfc960c}"
+        },
+        {
+            "Brand": "Elegoo",
+            "Color": "#e97b47",
+            "Name": "Orange",
+            "Owned": false,
+            "Tags": [
+            ],
+            "Transmissivity": 5.7,
+            "Type": "PLA",
+            "uuid": "{025932f6-e35a-4133-b633-8c11b831e986}"
+        },
+        {
+            "Brand": "Elegoo",
+            "Color": "#fbafbc",
+            "Name": "Pink",
+            "Owned": false,
+            "Tags": [
+            ],
+            "Transmissivity": 5.3,
+            "Type": "PLA",
+            "uuid": "{fc455808-f44b-4efc-8f1e-6ed746a98b32}"
+        },
+        {
+            "Brand": "Elegoo",
+            "Color": "#9e69e8",
+            "Name": "Purple",
+            "Owned": false,
+            "Tags": [
+            ],
+            "Transmissivity": 2.1,
+            "Type": "PLA",
+            "uuid": "{b25a0712-eb71-4cdf-b99d-ee4098741540}"
+        },
+        {
+            "Brand": "Elegoo",
+            "Color": "#ff0000",
+            "Name": "Red",
+            "Owned": false,
+            "Tags": [
+            ],
+            "Transmissivity": 4.7,
+            "Type": "PLA",
+            "uuid": "{152f67fd-a5ee-4e8b-95ea-c6f041ceb170}"
+        },
+        {
+            "Brand": "Elegoo",
+            "Color": "#09c299",
+            "Name": "Sea Green",
+            "Owned": false,
+            "Tags": [
+            ],
+            "Transmissivity": 1.9,
+            "Type": "PLA",
+            "uuid": "{b6920b10-407b-43fc-9726-77309e190a0d}"
+        },
+        {
+            "Brand": "Elegoo",
+            "Color": "#24a2cc",
+            "Name": "Sky Blue",
+            "Owned": false,
+            "Tags": [
+            ],
+            "Transmissivity": 3.1,
+            "Type": "PLA",
+            "uuid": "{a7bc000c-713a-441f-898f-c2162f5bd44a}"
+        },
+        {
+            "Brand": "Elegoo",
+            "Color": "#979797",
+            "Name": "Space Grey",
+            "Owned": false,
+            "Tags": [
+            ],
+            "Transmissivity": 0.1,
+            "Type": "PLA",
+            "uuid": "{4f73eafa-1fe7-40ee-9107-b4854e0bdebb}"
+        },
+        {
+            "Brand": "Elegoo",
+            "Color": "#ffffff",
+            "Name": "White",
+            "Owned": false,
+            "Tags": [
+            ],
+            "Transmissivity": 4.9,
+            "Type": "PLA",
+            "uuid": "{a56b6de8-fd14-4267-81cc-dc48c11054ad}"
+        },
+        {
+            "Brand": "Elegoo",
+            "Color": "#ffc800",
+            "Name": "Yellow",
+            "Owned": false,
+            "Tags": [
+            ],
+            "Transmissivity": 6,
+            "Type": "PLA",
+            "uuid": "{f99d061b-d8a9-40cf-a719-7ea444aadb63}"
+        }
+    ]
+}
