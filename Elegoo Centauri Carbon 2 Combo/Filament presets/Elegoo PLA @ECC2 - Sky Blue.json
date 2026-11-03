@@ -1,0 +1,51 @@
+{
+	"adaptive_pressure_advance": [
+		"1"
+	],
+	"adaptive_pressure_advance_bridges": [
+		"0.02"
+	],
+	"adaptive_pressure_advance_model": [
+		"0.056,6.30,2000\n0.056,6.30,5000\n0.052,6.30,10000\n0.050,12.60,2000\n0.040,12.60,5000\n0.040,12.60,10000\n0.054,16.80,2000\n0.042,16.80,5000\n0.040,16.80,10000"
+	],
+	"adaptive_pressure_advance_overhangs": [
+		"1"
+	],
+	"cool_plate_temp": [
+		"45"
+	],
+	"cool_plate_temp_initial_layer": [
+		"45"
+	],
+	"default_filament_colour": [
+		"#24A2CC"
+	],
+	"fan_min_speed": [
+		"100"
+	],
+	"filament_cost": [
+		"13.99"
+	],
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_flow_ratio": [
+		"1.0251"
+	],
+	"filament_max_volumetric_speed": [
+		"22"
+	],
+	"filament_settings_id": [
+		"Elegoo PLA @ECC2 - Sky Blue"
+	],
+	"from": "User",
+	"inherits": "Elegoo PLA @ECC2",
+	"name": "Elegoo PLA @ECC2 - Sky Blue",
+	"nozzle_temperature": [
+		"215"
+	],
+	"nozzle_temperature_initial_layer": [
+		"220"
+	],
+	"version": "1.5.3.5"
+}
