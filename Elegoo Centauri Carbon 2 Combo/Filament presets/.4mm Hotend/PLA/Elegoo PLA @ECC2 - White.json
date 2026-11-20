@@ -3,13 +3,19 @@
 		"1"
 	],
 	"adaptive_pressure_advance_bridges": [
-		"0.019"
+		"0.0175"
 	],
 	"adaptive_pressure_advance_model": [
-		"0.052,6.30,2000\n0.048,6.30,5000\n0.046,6.30,10000\n0.050,12.60,2000\n0.038,12.60,5000\n0.044,12.60,10000\n0.038,16.80,2000\n0.034,16.80,5000\n0.032,16.80,10000"
+		"0.055,5.98,2000\n0.040,5.98,5000\n0.030,5.984,10000\n0.035,12,2000\n0.035,12,5000\n0.030,11.97,10000\n0.035,16,2000\n0.030,16,5000\n0.025,15.96,10000"
 	],
 	"adaptive_pressure_advance_overhangs": [
 		"1"
+	],
+	"cool_plate_temp": [
+		"40"
+	],
+	"cool_plate_temp_initial_layer": [
+		"40"
 	],
 	"default_filament_colour": [
 		"#FFFFFF"
@@ -22,9 +28,6 @@
 	],
 	"filament_extruder_variant": [
 		"Direct Drive Standard"
-	],
-	"filament_flow_ratio": [
-		"0.99"
 	],
 	"filament_retraction_length": [
 		"0.4"
@@ -42,7 +45,7 @@
 		"220"
 	],
 	"pressure_advance": [
-		"0.038"
+		"0.035"
 	],
 	"version": "1.5.3.5"
 }

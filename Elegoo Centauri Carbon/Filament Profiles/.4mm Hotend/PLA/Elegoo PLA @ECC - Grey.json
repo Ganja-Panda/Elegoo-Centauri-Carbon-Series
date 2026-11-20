@@ -6,16 +6,16 @@
 		"0.015"
 	],
 	"adaptive_pressure_advance_model": [
-		"0.050,5.98,2000\n0.035,5.98,5000\n0.010,5.984,10000\n0.035,12,2000\n0.030,12,5000\n0.030,11.97,10000\n0.035,16,2000\n0.025,16,5000\n0.020,15.96,10000"
+		"0.050,5.98,2000\n0.040,5.98,5000\n0.035,5.984,10000\n0.035,12,2000\n0.030,12,5000\n0.030,11.97,10000\n0.030,16,2000\n0.025,16,5000\n0.020,15.96,10000"
 	],
 	"adaptive_pressure_advance_overhangs": [
 		"1"
 	],
 	"cool_plate_temp": [
-		"45"
+		"40"
 	],
 	"cool_plate_temp_initial_layer": [
-		"45"
+		"40"
 	],
 	"default_filament_colour": [
 		"#747C7E"
@@ -33,13 +33,10 @@
 		"Direct Drive Standard"
 	],
 	"filament_flow_ratio": [
-		"1.0403"
-	],
-	"filament_max_volumetric_speed": [
-		"33"
+		"1.03"
 	],
 	"filament_retraction_length": [
-		"0.6"
+		"0.5"
 	],
 	"filament_settings_id": [
 		"Elegoo PLA @ECC - Grey"

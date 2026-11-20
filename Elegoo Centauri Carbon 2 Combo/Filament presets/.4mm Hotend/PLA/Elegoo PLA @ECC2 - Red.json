@@ -3,16 +3,22 @@
 		"1"
 	],
 	"adaptive_pressure_advance_bridges": [
-		"0.0215"
+		"0.0175"
 	],
 	"adaptive_pressure_advance_model": [
-		"0.052,6.30,2000\n0.052,6.30,5000\n0.046,6.30,10000\n0.044,12.60,2000\n0.043,12.60,5000\n0.038,12.60,10000\n0.034,16.80,2000\n0.030,16.80,5000\n0.028,16.80,10000"
+		"0.060,5.98,2000\n0.055,5.98,5000\n0.050,5.984,10000\n0.045,12,2000\n0.035,12,5000\n0.025,11.97,10000\n0.035,16,2000\n0.030,16,5000\n0.025,15.96,10000"
 	],
 	"adaptive_pressure_advance_overhangs": [
 		"1"
 	],
+	"cool_plate_temp": [
+		"40"
+	],
+	"cool_plate_temp_initial_layer": [
+		"40"
+	],
 	"default_filament_colour": [
-		"#FF3700"
+		"#FF0000"
 	],
 	"fan_min_speed": [
 		"100"
@@ -24,16 +30,19 @@
 		"Direct Drive Standard"
 	],
 	"filament_flow_ratio": [
-		"0.99"
+		"1.04"
 	],
-	"filament_max_volumetric_speed": [
-		"23.2"
+	"filament_retract_when_changing_layer": [
+		"0"
 	],
 	"filament_retraction_length": [
-		"0.4"
+		"0.5"
 	],
 	"filament_settings_id": [
 		"Elegoo PLA @ECC2 - Red"
+	],
+	"filament_wipe": [
+		"0"
 	],
 	"from": "User",
 	"inherits": "Elegoo PLA @ECC2",
@@ -45,7 +54,7 @@
 		"220"
 	],
 	"pressure_advance": [
-		"0.043"
+		"0.035"
 	],
 	"version": "1.5.3.5"
 }
