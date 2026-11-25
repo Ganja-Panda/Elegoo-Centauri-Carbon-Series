@@ -11,12 +11,6 @@
 	"adaptive_pressure_advance_overhangs": [
 		"1"
 	],
-	"cool_plate_temp": [
-		"40"
-	],
-	"cool_plate_temp_initial_layer": [
-		"40"
-	],
 	"default_filament_colour": [
 		"#979797"
 	],

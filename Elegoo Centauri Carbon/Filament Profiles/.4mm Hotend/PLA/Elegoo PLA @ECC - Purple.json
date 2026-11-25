@@ -3,49 +3,55 @@
 		"1"
 	],
 	"adaptive_pressure_advance_bridges": [
-		"0.023"
+		"0.015"
 	],
 	"adaptive_pressure_advance_model": [
-		"0.060,6.30,2000\n0.056,6.30,5000\n0.052,6.30,10000\n0.052,12.60,2000\n0.046,12.60,5000\n0.042,12.60,10000\n0.048,16.80,2000\n0.042,16.80,5000\n0.040,16.80,10000  "
+		"0.045,5.98,2000\n0.025,5.98,5000\n0.0005,5.984,10000\n0.035,12,2000\n0.030,12,5000\n0.025,11.97,10000\n0.035,16,2000\n0.025,16,5000\n0.015,15.96,10000"
 	],
 	"adaptive_pressure_advance_overhangs": [
 		"1"
 	],
 	"cool_plate_temp": [
-		"45"
+		"40"
 	],
 	"cool_plate_temp_initial_layer": [
-		"45"
+		"40"
 	],
 	"default_filament_colour": [
-		"#D5E9E7"
+		"#9E69E8"
+	],
+	"enable_pressure_advance": [
+		"1"
 	],
 	"fan_min_speed": [
 		"100"
+	],
+	"filament_cost": [
+		"13.99"
 	],
 	"filament_extruder_variant": [
 		"Direct Drive Standard"
 	],
 	"filament_flow_ratio": [
-		"1.02"
-	],
-	"filament_max_volumetric_speed": [
-		"21"
+		"1.03"
 	],
 	"filament_retraction_length": [
-		"0.4"
+		"0.5"
 	],
 	"filament_settings_id": [
-		"Elegoo PLA Marble @ECC2 - Filled"
+		"Elegoo PLA @ECC - Purple"
 	],
 	"from": "User",
-	"inherits": "Elegoo PLA Marble @ECC2",
-	"name": "Elegoo PLA Marble @ECC2 - Filled",
+	"inherits": "Elegoo PLA @ECC",
+	"name": "Elegoo PLA @ECC - Purple",
 	"nozzle_temperature": [
 		"215"
 	],
-	"pressure_advance": [
-		"0.046"
+	"nozzle_temperature_initial_layer": [
+		"220"
 	],
-	"version": "1.5.3.5"
+	"pressure_advance": [
+		"0.03"
+	],
+	"version": "1.5.3.8"
 }
