@@ -130,8 +130,24 @@ This repository exists to back up my work, share repeatable starting points, and
 
 ## 📜 License
 
-Distributed under the [MIT License](./LICENSE). Copyright © 2025 Ganja Panda as stated in the repository license.
+Copyright © 2025–2026 PandaWorks Studios. All rights reserved except as expressly permitted under the [PandaWorks Studios Calibration Profile License](LICENSE.md).
 
-Use it, modify it, sacrifice it to the filament gods. Just check your machine before firing it up.
+These filament calibration profiles are provided **free of charge** for personal, educational, and commercial 3D printing.
 
-*If the repository saves you some calibration time, a GitHub star is always appreciated.* 🐼
+**You're free to:**
+- Download and use the profiles.
+- Modify the settings for your own equipment.
+- Sell anything you print using these profiles.
+- Share links to this repository.
+
+**You may not**, without prior written permission:
+- Sell the calibration profiles or charge for access to them.
+- Redistribute, mirror, rehost, or republish the repository files.
+- Repackage modified or unmodified profiles for distribution.
+- Present these calibration profiles as your own original calibration work.
+
+**The official PandaWorks Studios repository is the intended source for these files.**
+
+Use them, tweak them, sacrifice filament to the printing gods. Just don't sell or redistribute the calibration files, and always check your machine before firing it up.
+
+*If this repository saves you some calibration time, a GitHub star is always appreciated. 🐼*
