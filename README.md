@@ -100,6 +100,49 @@ This **HueForge JSON is not a slicer preset**. Import it into HueForge, not thro
 
 ---
 
+## 🛠️ Software & Tools
+
+### 🖨️ ELEGOO Slicer
+
+All ECC and ECC2C printer, filament, and process profiles in this repository are developed and tested using **ELEGOO Slicer**, ELEGOO's customized slicer based on OrcaSlicer.
+
+Each profile is calibrated using actual printing results, with adjustments made to temperature, flow ratio, pressure advance, maximum volumetric speed, cooling, and other relevant settings.
+
+**Official resources:**
+
+- [Download ELEGOO Slicer](https://www.elegoo.com/pages/download)
+- [ELEGOO Slicer GitHub Repository](https://github.com/elegooofficial/ElegooSlicer)
+- [ELEGOO Slicer Releases](https://github.com/elegooofficial/ElegooSlicer/releases)
+
+---
+
+### 🧵 Spool Master — Filament Inventory Management
+
+<p align="center">
+  <a href="https://engageengine.ch/en/spool-master.html">
+    <img src="assets/spool-master.png"
+         alt="SpoolMaster — Filament, NFC, Stock and Analytics"
+         width="180">
+  </a>
+</p>
+
+I use **Spool Master**, developed by Sébastien Girod, to organize and manage my filament inventory across my printers.
+
+Spool Master provides inventory management, NFC/RFID capabilities for supported tags, color organization, remaining filament tracking, stock information, and statistics.
+
+The application is useful for maintaining a growing collection of filament brands, materials, and colors.
+
+**Official website:** [Spool Master — EngageEngine](https://engageengine.ch/en/spool-master.html)
+
+**Download Spool Master:**
+
+[![Download on the App Store](https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83)](https://apps.apple.com/app/id6757678949)
+
+[![Get it on Google Play](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=com.engagengine.nfc_anycubic)
+---
+
+*These are tools I use in my own calibration and filament-management workflow. This repository is independently maintained by PandaWorks Studios.*
+
 ## 🔬 How I develop and evaluate printer profiles
 
 My process includes temperature tests, maximum volumetric flow testing, flow calibration, pressure advance at different speeds and accelerations, retraction, cooling, bridging, overhangs, and real-world print evaluation. I also inspect printed surfaces under magnification and use AI-assisted analysis to help find subtle patterns and artifacts.
