@@ -10,8 +10,8 @@ These are configurations and measurements from my own equipment. I calibrate, te
 
 | Collection | Contents currently published | Go to files |
 |---|---|---|
-| **Centauri Carbon (ECC)** | 1 printer, 9 filament, 3 process presets | [ECC profiles](./Elegoo%20Centauri%20Carbon/) |
-| **Centauri Carbon 2 Combo (ECC2C)** | 1 printer, 9 filament, 4 process presets | [ECC2C profiles](./Elegoo%20Centauri%20Carbon%202%20Combo/) |
+| **Centauri Carbon (ECC)** | 1 printer, 13 filament, 3 process presets | [ECC profiles](./Elegoo%20Centauri%20Carbon/) |
+| **Centauri Carbon 2 Combo (ECC2C)** | 1 printer, 18 filament, 4 process presets | [ECC2C profiles](./Elegoo%20Centauri%20Carbon%202%20Combo/) |
 | **HueForge — Elegoo PLA** | 15 filament color / transmission-distance entries | [HueForge data](./HueForge/) |
 
 Counts reflect the files currently published—not every filament I own or intend to calibrate. **All published printer/process presets are for 0.4 mm nozzles.**
@@ -26,7 +26,8 @@ Counts reflect the files currently published—not every filament I own or inten
 
 **Processes:** 0.12 mm Fine · 0.16 mm Optimal · 0.20 mm Standard.
 
-**Available filament presets:** Black, Bronze Filled, Dark Blue, Grey, Marble Filled, Red, Space Grey, White, and Wood Filled.
+**Available filament presets:** 
+- PLA: Black, Brown, Dark blue, Grey, Neon Green, Orange, Purple, Red, Sea Green, Sky Blue, Space Grey, White, Yellow.
 
 ## 🖨️ Centauri Carbon 2 Combo (ECC2C)
 
@@ -36,7 +37,11 @@ Counts reflect the files currently published—not every filament I own or inten
 
 **Processes:** 0.08 mm Fine · 0.12 mm Fine · 0.16 mm Optimal · 0.20 mm Standard.
 
-**Available filament presets:** Black, Bronze Filled, Dark Blue, Grey, Marble Filled, Red, Space Grey, White, and Wood Filled.
+**Available filament presets:** 
+- PLA: Beige, Black, Brown, Dark Blue, Grey, Neon Green, Orange, Pink, Purple, Red, Sea Green, Sky Blue, Space Grey, White, Yellow.
+- PLA Marble: Marble Filled.
+- PLA Metal: Bronze Filled.
+- PLA Translucent: Clear.
 
 **About filenames ending in `- Copy`:** These are deliberately named copies of Elegoo's default printer/process presets that I have modified. They're not accidental duplicates or unfinished filenames. They retain the familiar base naming because they are edited copies of those profiles.
 
