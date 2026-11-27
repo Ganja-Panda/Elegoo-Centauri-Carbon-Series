@@ -113,7 +113,7 @@ My process includes temperature tests, maximum volumetric flow testing, flow cal
 ### Download
 
 - **Individual file:** Open its folder on GitHub and choose **Download raw file**.
-- **Whole repository:** Select **Code → Download ZIP** on the [repository home page](https://github.com/Ganja-Panda/Elegoo-CC1), then extract it.
+- **Whole repository:** Select **Code → Download ZIP** on the [repository home page](https://github.com/Ganja-Panda/Elegoo-Centauri-Carbon-Series), then extract it.
 
 ### Import into Elegoo Slicer / OrcaSlicer
 
