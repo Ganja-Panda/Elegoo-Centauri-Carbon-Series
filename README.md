@@ -132,6 +132,8 @@ Spool Master provides inventory management, NFC/RFID capabilities for supported 
 
 The application is useful for maintaining a growing collection of filament brands, materials, and colors.
 
+As of Version 2.0 your printers are now able to be monitored from within the app! 
+
 **Official website:** [Spool Master — EngageEngine](https://engageengine.ch/en/spool-master.html)
 
 **Download Spool Master:**
