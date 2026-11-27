@@ -136,9 +136,22 @@ The application is useful for maintaining a growing collection of filament brand
 
 **Download Spool Master:**
 
-[![Download on the App Store](https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83)](https://apps.apple.com/app/id6757678949)
+<p align="left">
+  <a href="https://apps.apple.com/app/id6757678949">
+    <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83"
+         alt="Download on the App Store"
+         height="55"
+         align="middle">
+  </a>
+  &nbsp;
+  <a href="https://play.google.com/store/apps/details?id=com.engagengine.nfc_anycubic">
+    <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+         alt="Get it on Google Play"
+         height="53"
+         align="middle">
+  </a>
+</p>
 
-[![Get it on Google Play](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=com.engagengine.nfc_anycubic)
 ---
 
 *These are tools I use in my own calibration and filament-management workflow. This repository is independently maintained by PandaWorks Studios.*
